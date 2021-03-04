@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Checkbox</title>
+</head>
+  <body>
+    <div class="container">
+        <input type="checkbox" id="happy" class="smile-input" checked/>
+        <label for="happy">Улыбка</label>
+  
+        <input type="checkbox" id="sad" class="smile-input" />
+        <label for="sad">Грусть</label>
+  
+        <input type="checkbox" id="aggry" class="smile-input" />
+        <label for="aggry">Злость</label>
+  
+        <input type="checkbox" id="off" class="smile-input" onclick="checkToggle(this)"/>
+        <label for="off">Вкл/выкл все эмоции</label>
+
+      <div class="content">
+        <div class="smile">
+          =D
+        </div>
+        <div class="smile">
+          :((
+        </div>
+        <div class="smile">
+          >=(
+        </div>
+      </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>

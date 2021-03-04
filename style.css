@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+.content > div {
+  display: none;
+}
+
+#happy:checked ~ .content div:nth-child(1),
+#sad:checked ~ .content div:nth-child(2),
+#aggry:checked ~ .content div:nth-child(3) {
+  display: flex;
+}
+
+.container {
+  border: 1px solid red;
+}
+
+.content {
+  display: flex;
+}
+.smile {
+  padding: 10px;
+}
+
+
+
+
+
+
